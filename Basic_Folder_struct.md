@@ -30,6 +30,8 @@ python-yaml-data-pipelines/
 ├── .gitignore
 └── README.md
 
+------------------------------------------------------------------------------------------------------
+
 # UPDATED FOLDER STRUCTURE
 python-yaml-data-pipelines/
 │
