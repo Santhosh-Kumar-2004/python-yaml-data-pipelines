@@ -1,3 +1,6 @@
+👉 YAML decides WHAT happens
+👉 Python decides HOW it happens
+
 python-yaml-data-pipelines/
 │
 ├── pipelines/           # YAML pipeline definitions
