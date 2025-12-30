@@ -7,17 +7,11 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 ------------------------------------------
 
 **Goal:** Understand the WHY
-
 *   What is Data Engineering?
-    
-*   What is a data pipeline (real meaning)
-    
+*   What is a data pipeline (real meaning)    
 *   OLTP vs OLAP
-    
 *   Source DB vs Target DB
-    
 *   Batch vs Streaming
-    
 *   Role of YAML in pipelines
     
 
