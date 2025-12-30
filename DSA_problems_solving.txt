@@ -18,3 +18,28 @@ Step 4️⃣ Code Cleanly
 Write readable Python
 Test with examples
 This is how toppers think.
+
+----------------------------------------------------------------------------------------------
+
+🧠 PART 1: How to THINK (This is the most important skill)
+
+Whenever you see any DSA problem, follow this 4-step thinking framework:
+🔹 STEP 1: What is GIVEN?
+An array? size?
+Any rules? (like permutation, sorted, duplicates?)
+
+🔹 STEP 2: What is ASKED?
+Return a number?
+Return an array?
+Modify in-place?
+
+🔹 STEP 3: Manual Example (MANDATORY)
+Take a small input
+Solve it by hand
+Observe the pattern
+
+🔹 STEP 4: Convert Pattern → Code
+Loop?
+Index?
+Extra array?
+We’ll apply this now 👇
