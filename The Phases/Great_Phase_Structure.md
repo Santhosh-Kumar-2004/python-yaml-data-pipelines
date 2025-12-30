@@ -36,16 +36,11 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 **Goal:** Clean Python architecture
 
 *   venv (done once)
-    
 *   Entry point design
-    
 *   Config loaders
-    
 *   Logging setup
-    
 *   Exception handling patterns
     
-
 ✅ Outcome: You write **clean pipeline code**
 
 🔹 PHASE 4 – PostgreSQL + DBeaver
