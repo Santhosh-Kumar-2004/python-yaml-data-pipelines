@@ -14,7 +14,6 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 *   Batch vs Streaming
 *   Role of YAML in pipelines
     
-
 ✅ Outcome: You can **explain pipelines clearly**
 
 🔹 PHASE 2 – YAML (Deep & Practical)
