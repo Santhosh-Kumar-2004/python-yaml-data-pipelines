@@ -59,3 +59,4 @@ Key property:
 ## 4. ETL in Reality (Not Just Theory)
 
 Classic definition:
+Extract → Transform → Load
