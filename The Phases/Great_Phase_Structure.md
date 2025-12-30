@@ -28,7 +28,6 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 *   YAML best practices
 *   Reading YAML in Python
     
-
 ✅ Outcome: YAML controls pipelines confidently
 
 🔹 PHASE 3 – Python Project Foundations
