@@ -22,15 +22,10 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 **Goal:** YAML mastery (your main focus)
 
 *   YAML syntax
-    
 *   Lists, maps, nesting
-    
 *   Multi-pipeline configs
-    
 *   Environment-based configs
-    
 *   YAML best practices
-    
 *   Reading YAML in Python
     
 
