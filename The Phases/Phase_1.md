@@ -60,3 +60,17 @@ Key property:
 
 Classic definition:
 Extract → Transform → Load
+
+
+Real-world pipeline:
+    Extract
+    ↓
+    Validate
+    ↓
+    Transform
+    ↓
+    Validate again
+    ↓
+    Load
+    ↓
+    Verify
