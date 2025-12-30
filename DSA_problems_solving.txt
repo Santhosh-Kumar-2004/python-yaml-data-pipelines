@@ -1,0 +1,20 @@
+🧪 How You Will Solve ANY DSA Problem (Golden Framework)
+When you see a problem:
+Step 1️⃣ Understand the Problem
+Ask:
+What is given?
+What is asked?
+Example input/output?
+
+Step 2️⃣ Brute Force (Even if slow)
+Think simplest solution
+Ignore performance for now
+
+Step 3️⃣ Optimize
+Can I reduce loops?
+Can I use a data structure?
+
+Step 4️⃣ Code Cleanly
+Write readable Python
+Test with examples
+This is how toppers think.
