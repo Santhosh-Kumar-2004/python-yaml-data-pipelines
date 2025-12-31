@@ -49,13 +49,9 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 **Goal:** Database confidence
 
 *   Installing PostgreSQL
-    
 *   Creating databases in DBeaver
-    
 *   Creating schemas & tables
-    
 *   Writing DDL / DML / DQL
-    
 *   Indexes & constraints
     
 
