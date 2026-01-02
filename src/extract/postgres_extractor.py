@@ -36,7 +36,7 @@ def extract_users():
 conn = psycopg2.connect(
     dbname="source_db",
     user="postgres",
-    password="your_password",
+    password="pg123",
     host="localhost",
     port=5432
 )
