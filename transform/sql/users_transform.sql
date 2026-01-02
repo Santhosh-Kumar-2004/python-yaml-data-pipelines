@@ -1,4 +1,5 @@
 -- Created the select query to make the email lower and not null
+-- EMAIL LOWER TRANSFORMATION
 SELECT
     user_id,
     LOWER(email) AS email,
