@@ -3,3 +3,5 @@ import pandas as pd
 from utils.db import get_engine
 from utils.yaml_loader import load_yaml
 from utils.logger import get_logger
+
+logger = get_logger(__name__)
