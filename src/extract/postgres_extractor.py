@@ -30,6 +30,29 @@ def extract_users():
 
     return df
 
+import psycopg2
+
+conn = psycopg2.connect(
+    dbname="source_db",
+    user="postgres",
+    password="your_password",
+    host="localhost",
+    port=5432
+)
+
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM raw.users")
+
+for row in cursor.fetchall():
+    print(row)
+
+cursor.close()
+conn.close()
+
+
 if __name__ == "__main__":
     df = extract_users()
     print(df)
+    
+
+
