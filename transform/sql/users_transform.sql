@@ -31,7 +31,8 @@ SELECT
 FROM ranked_users
 WHERE rn = 1;
 
-
+-- Addeed the Common Table Expressions as the third sql command query
+-- IT IS CTE BASED EXPRESSION AND IT RETURN ALL THE USERS WHERE EMAIL IS NOT NULL
 WITH clean_users AS (
     SELECT
         user_id,
