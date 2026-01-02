@@ -52,6 +52,7 @@ FROM analytics.users
 GROUP BY domain
 ORDER BY user_count DESC;
 
+-- Inseting the data into the destination table with all the transformations
 INSERT INTO analytics.users (user_id, email, full_name, created_at)
 SELECT
     user_id,
