@@ -18,3 +18,5 @@ def extract_users():
         port=db_config["port"],
         database=db_config["database"],
     )
+    
+    query = "SELECT * FROM raw.users"
