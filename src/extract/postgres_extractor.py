@@ -3,6 +3,8 @@ import pandas as pd
 from utils.db import get_engine
 from utils.yaml_loader import load_yaml
 from utils.logger import get_logger
+import psycopg2
+
 
 logger = get_logger(__name__)
 
@@ -30,7 +32,6 @@ def extract_users():
 
     return df
 
-import psycopg2
 
 conn = psycopg2.connect(
     dbname="source_db",
