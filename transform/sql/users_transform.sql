@@ -7,6 +7,7 @@ SELECT
 FROM raw.users
 WHERE email IS NOT NULL;
 
+-- Added the sql query which makes the email into lower and clears duplicates and also orders correctly
 WITH ranked_users AS (
     SELECT
         user_id,
