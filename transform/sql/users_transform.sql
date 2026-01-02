@@ -51,3 +51,12 @@ SELECT
 FROM analytics.users
 GROUP BY domain
 ORDER BY user_count DESC;
+
+INSERT INTO analytics.users (user_id, email, full_name, created_at)
+SELECT
+    user_id,
+    LOWER(email),
+    full_name,
+    created_at
+FROM raw.users
+WHERE email IS NOT NULL;
