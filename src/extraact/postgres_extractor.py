@@ -28,3 +28,7 @@ def extract_users():
     logger.info(f"Extracted {len(df)} rows")
 
     return df
+
+if __name__ == "__main__":
+    df = extract_users()
+    print(df)
