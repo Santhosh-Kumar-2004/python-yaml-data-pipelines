@@ -1,6 +1,6 @@
 source_db:
   user: postgres
-  password:
+  password: pg123
   host:
   port:
   database:
@@ -8,7 +8,7 @@ source_db:
 
 analytics_db:
   user: postgres
-  password:
+  password: pg123
   host:
   port:
   database:
