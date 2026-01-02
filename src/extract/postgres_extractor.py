@@ -6,6 +6,7 @@ from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
+#Extracting the all the users on a whole
 def extract_users():
     # Load DB config
     db_config = load_yaml("configs/db.yaml")["source_db"]
