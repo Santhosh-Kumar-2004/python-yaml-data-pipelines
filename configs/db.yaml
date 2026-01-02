@@ -3,12 +3,11 @@ source_db:
   password: pg123
   host: localhost
   port: 5432
-  database:
-
+  database: source_db
 
 analytics_db:
   user: postgres
   password: pg123
   host: localhost
   port: 5432
-  database:
+  database: analytics_db
