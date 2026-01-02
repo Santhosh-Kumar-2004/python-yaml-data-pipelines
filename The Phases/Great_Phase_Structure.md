@@ -63,13 +63,9 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 **Goal:** Pull data correctly
 
 *   PostgreSQL connections
-    
 *   Safe SQL execution
-    
 *   Fetching large datasets
-    
 *   Chunking data
-    
 *   Extracting from APIs (intro)
     
 
