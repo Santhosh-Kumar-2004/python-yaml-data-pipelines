@@ -1,14 +1,14 @@
 source_db:
   user: postgres
   password: pg123
-  host:
-  port:
+  host: localhost
+  port: 5432
   database:
 
 
 analytics_db:
   user: postgres
   password: pg123
-  host:
-  port:
+  host: localhost
+  port: 5432
   database:
