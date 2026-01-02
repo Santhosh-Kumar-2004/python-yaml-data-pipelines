@@ -30,3 +30,15 @@ SELECT
     created_at
 FROM ranked_users
 WHERE rn = 1;
+
+
+WITH clean_users AS (
+    SELECT
+        user_id,
+        LOWER(email) AS email,
+        full_name,
+        created_at
+    FROM raw.users
+    WHERE email IS NOT NULL
+)
+SELECT * FROM clean_users;
