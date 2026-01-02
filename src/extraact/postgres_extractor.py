@@ -22,3 +22,9 @@ def extract_users():
     query = "SELECT * FROM raw.users"
     
     logger.info("Starting the Extracting of the users from the Raw schema in Source db...")
+    
+    df = pd.read_sql(query, engine)
+
+    logger.info(f"Extracted {len(df)} rows")
+
+    return df
