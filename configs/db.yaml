@@ -1,1 +1,14 @@
 source_db:
+  user:
+  password:
+  host:
+  port:
+  database:
+
+
+analytics_db:
+  user:
+  password:
+  host:
+  port:
+  database:
