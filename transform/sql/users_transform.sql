@@ -43,3 +43,11 @@ WITH clean_users AS (
     WHERE email IS NOT NULL
 )
 SELECT * FROM clean_users;
+
+
+SELECT
+    SPLIT_PART(email, '@', 2) AS domain,
+    COUNT(*) AS user_count
+FROM analytics.users
+GROUP BY domain
+ORDER BY user_count DESC;
