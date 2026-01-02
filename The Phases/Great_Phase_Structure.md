@@ -77,13 +77,9 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 **Goal:** Think like an analyst
 
 *   SQL transformation patterns
-    
 *   CTEs
-    
 *   Deduplication
-    
-*   Aggregations
-    
+*   Aggregations    
 *   Slowly changing data basics
     
 
