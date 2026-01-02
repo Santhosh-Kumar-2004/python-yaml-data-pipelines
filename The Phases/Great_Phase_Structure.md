@@ -57,8 +57,8 @@ This is **your core learning**.Each phase is **small, complete, and practical**.
 
 ✅ Outcome: You’re **DB-comfortable**
 
-🔹 PHASE 5 – Data Extraction
-----------------------------
+🔹 PHASE 5 – Data Extraction using python
+----------------------------------------------
 
 **Goal:** Pull data correctly
 
