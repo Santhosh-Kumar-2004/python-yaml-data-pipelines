@@ -53,11 +53,25 @@ GROUP BY domain
 ORDER BY user_count DESC;
 
 -- Inseting the data into the destination table with all the transformations
+WITH cleaned_users AS (
+    SELECT
+        user_id,
+        LOWER(email) AS email,
+        full_name,
+        created_at,
+        ROW_NUMBER() OVER (
+            PARTITION BY LOWER(email)
+            ORDER BY created_at DESC
+        ) AS rn
+    FROM raw.users
+    WHERE email IS NOT NULL
+)
 INSERT INTO analytics.users (user_id, email, full_name, created_at)
 SELECT
     user_id,
-    LOWER(email),
+    email,
     full_name,
     created_at
-FROM raw.users
-WHERE email IS NOT NULL;
+FROM cleaned_users
+WHERE rn = 1;
+
