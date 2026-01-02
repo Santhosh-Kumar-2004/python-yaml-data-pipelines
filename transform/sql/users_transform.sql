@@ -44,7 +44,7 @@ WITH clean_users AS (
 )
 SELECT * FROM clean_users;
 
-
+-- Grouping by email id and returns the domain BASED
 SELECT
     SPLIT_PART(email, '@', 2) AS domain,
     COUNT(*) AS user_count
